@@ -7,7 +7,7 @@ class AboutMessagePassing < Neo::Koan
       true
     end
   end
-
+ 
   def test_methods_can_be_called_directly
     mc = MessageCatcher.new
 

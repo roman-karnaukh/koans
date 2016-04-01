@@ -1,6 +1,6 @@
 # The path to Ruby Enlightenment starts with the following:
 
-$LOAD_PATH << File.dirname(__FILE__)
+$LOAD_PATH << File.dirname(__FILE__).remove_me
 
 require 'about_asserts'
 require 'about_nil'
